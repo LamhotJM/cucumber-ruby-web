@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'capybara', '~> 3.1'
+gem 'capybara-screenshot', '~> 1.0', '>= 1.0.21'
+gem 'cucumber', '~> 3.1'
+gem 'dotenv', '~> 2.1', '>= 2.1.1'
+gem 'rspec', '~> 3.5'
+gem 'rspec-retry', '~> 0.4.5'
+gem 'selenium-webdriver', '~> 3.12'
+gem 'pry', '~> 0.10.4'
