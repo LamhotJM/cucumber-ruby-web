@@ -1,17 +1,10 @@
-## Installation
+## Description
+Desktop Web Automation Testing using Selenium Capybara Cucumber (Ruby). 
 
-`curl -L get.rvm.io | bash -s stable`
-
-`source ~/.bash_profile`
-
-`rvm requirements`
-
-`rvm install 2.3.0`
-
-`cp env.sample .env`
-
-`gem install bundler`
-
-`bundle install`
-
-`bundle`
+## Getting Started
+  1. Ensure you have the firefox or chrome browser installed - install chromedriver if using chrome
+  2. Ensure you have ruby installed (built and run with 2.5.1) - use rvm
+  3. Ensure you have rubygems and the bundler installed
+  4. Navigate to the cloned project in your terminal
+  5. Run `bundle install`
+  6. Run `cucumber`
