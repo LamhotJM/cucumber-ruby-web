@@ -5,8 +5,8 @@ require 'selenium-webdriver'
 require 'rspec/retry'
 require 'securerandom'
 require 'site_prism'
-
 require 'dotenv'
+
 Dotenv.load
 
 browser = (ENV['BROWSER'] || 'firefox').to_sym
