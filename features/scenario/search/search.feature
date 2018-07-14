@@ -7,7 +7,7 @@ Feature: Google Search
     Then I should see the results page
 
   Examples:
-  | search        |
-  | fig rolls     |
-  | giants        |
-  | san francisco |
+  | search     |
+  | baju       |
+  | bola       |
+  | indonesia  |
