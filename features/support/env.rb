@@ -2,7 +2,6 @@ require 'capybara/cucumber'
 require 'capybara-screenshot/cucumber'
 require 'capybara/rspec'
 require 'selenium-webdriver'
-require 'rspec/retry'
 require 'securerandom'
 require 'site_prism'
 require 'dotenv'
@@ -10,7 +9,7 @@ require 'dotenv'
 Dotenv.load
 
 browser = (ENV['BROWSER'] || 'firefox').to_sym
-wait_time = 60 * 5
+wait_time = 30
 
 Capybara.register_driver :firefox do |app|
   profile = Selenium::WebDriver::Firefox::Profile.new
