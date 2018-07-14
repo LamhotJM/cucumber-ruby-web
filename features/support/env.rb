@@ -52,7 +52,7 @@ Capybara::Screenshot.prune_strategy = { keep: 50 }
 Capybara::Screenshot.append_timestamp = true
 
 Before do
-  Capybara.app_host = 'https://www.google.com'
+  Capybara.app_host = ENV['BASE_URL'] || 'https://www.google.com'
   Capybara::Screenshot.autosave_on_failure = true
   Capybara::Screenshot.webkit_options = {
     width: 1366,
